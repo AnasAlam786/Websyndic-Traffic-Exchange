@@ -38,5 +38,5 @@ def start():
 while True:
   try:
     start()
-  except:
-    pass
+ except Exception as e:
+    print(e)
