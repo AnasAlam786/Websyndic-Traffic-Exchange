@@ -6,7 +6,7 @@ def start():
   options.add_argument('--no-sandbox')
   options.add_argument('--disable-dev-shm-usage')
 
-  d=webdriver.Chrome(chrome_options=options)
+  d=webdriver.Chrome(options=options)
   
   def a():
     try:
